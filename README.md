@@ -8,3 +8,4 @@ result(la variable que se ha creado antes)!=reslt(la variable que se quiere most
 
 Ejercicio 2
 
+En el if los simbolos para comparar la variable no están usados correctamente ya que primero pone el "=" y luego el ">" haciendo que la máquina interprete que ahora la variable edad sea una funcion en un if que se ejecuta ya que el if está por defecto en true y por eso siempre imprime la primera parte del bucle (nunca ejecutara el else)
