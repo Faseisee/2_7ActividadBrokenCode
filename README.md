@@ -20,6 +20,9 @@ Lo que ocurre es que como en el ejercicio 1 la variable no coincide con el param
 
 Ejercicio 5
 
+El problema en este ejercicio es el bucle for. Si nos fijamos en la imagen de la actividad 5 vemos que la variable i que se usa para recorrer el array de números y que va tomando el valor de cada posicion del array en la última iteración del bucle toma el valor de 4 y si nos fijamos en nuestro array solo hay 3 posiciones ocurriendo asi un problema en la suma de los números y devolviendo la suma un NaN.
+Se soluciona saliendo del bucle cuando i toma ese valor y eso lo conseguimos quitando el = en la sentencia del bucle for
+
 Ejercicio 6
 
 Ejercicio 7
