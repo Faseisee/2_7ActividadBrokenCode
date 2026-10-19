@@ -16,6 +16,8 @@ El fallo en este ejercicio es que la funcion a la que esta llamando la variable 
 
 Ejercicio 4
 
+Lo que ocurre es que como en el ejercicio 1 la variable no coincide con el parametro que usa la función, la función usa el parámetro nombre y el usuario cuando la llama lo pone correctamente saludar("Ana), el problema es que dentro de la funcion se usa una variable que no esta siquiera definida en lugar de usar el nombre que te han pasado como parámetro, se arregla cambiando name por nombre en la función.
+
 Ejercicio 5
 
 Ejercicio 6
