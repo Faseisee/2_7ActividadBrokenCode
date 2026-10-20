@@ -25,6 +25,8 @@ Se soluciona saliendo del bucle cuando i toma ese valor y eso lo conseguimos qui
 
 Ejercicio 6
 
+El problema que daba es que el if no esta comparando correctamente los valores el = se utiliza para asignar un valor a una variable , para comparar deberia usar el == o el === dependiendo de la comparacion que quiera hacer, en este caso yo usaria el === para solucionar el problema.
+
 Ejercicio 7
 
 Ejercicio 8
