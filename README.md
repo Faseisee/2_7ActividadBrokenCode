@@ -29,6 +29,10 @@ El problema que daba es que el if no esta comparando correctamente los valores e
 
 Ejercicio 7
 
+En este ejercicio el fallo se encuentra en el nombre de la vairiable dat de la funcion procesarDatos. Si nos fijamos en el error veremos como nos indica que la variable dat no está definida ya que la busca en el ámbito de la funcion y no encuentra nada, verdaderamente para que funcione en vez de dat deberia llamarse datos para que la funcion recoja el array de numeros que el usuario mete en la referencia al llamar a la funcion.
+
 Ejercicio 8
+
+
 
 Ejercicio 9

@@ -84,20 +84,43 @@ if (edad >= 18) {
 
 
     //ACTIVIDAD 6
-function esPar(num) {
-    if (num % 2 === 0) {
-        return true;
-    } else {
-        return false;
-    }
-}
+//     function esPar(num) {
+//     if (num % 2 = 0) {
+//         return true;
+//     } else {
+//         return false;
+//     }
+// }
  
-console.log(esPar(3));
-console.log(esPar(4));
+// console.log(esPar(3));
+// console.log(esPar(4));
+    function esPar(num) {
+        if (num % 2 === 0) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+    
+    console.log(esPar(3));
+    console.log(esPar(4));
 
 
     //ACTIVIDAD 7
-
+// function procesarDatos(datos, callback) {
+//     callback(dat);
+// }
+ 
+// procesarDatos([1,2,3], function(d) {
+//     console.log("Datos recibidos:", d);
+// });
+    function procesarDatos(datos, callback) {
+        callback(datos);
+    }
+    
+    procesarDatos([1,2,3], function(d) {
+        console.log("Datos recibidos:", d);
+    });
 
 
     //ACTIVIDAD 8
