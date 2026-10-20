@@ -33,6 +33,6 @@ En este ejercicio el fallo se encuentra en el nombre de la vairiable dat de la f
 
 Ejercicio 8
 
-
+Aqui como ya hemos visto en otros ejercicios el error es de sintaxis ya que en la funcion que lanza el botón vemos como hay creada una variable mnsg y cuando usamos esa variable para imprimir por consola el mensaje se utiliza la variable mnsj que no esta creada ni definida en ningún lugar de la función, simplemente cambiando mnsj por mnsg se arregla el error
 
 Ejercicio 9
