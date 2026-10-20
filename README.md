@@ -36,3 +36,5 @@ Ejercicio 8
 Aqui como ya hemos visto en otros ejercicios el error es de sintaxis ya que en la funcion que lanza el botón vemos como hay creada una variable mnsg y cuando usamos esa variable para imprimir por consola el mensaje se utiliza la variable mnsj que no esta creada ni definida en ningún lugar de la función, simplemente cambiando mnsj por mnsg se arregla el error
 
 Ejercicio 9
+
+    En este ejercicio el error se basa en la lógica del usuario, el problema es que trata dos casos diferentes como si fueran el mismo, el usuario puede poner el porcentaje ya calculado (como 0,1 un 10%) como sin calcular 10 por ejemplo y los trata de la misma manera, para arreglarlo he agregado un else al if para que trate con los dos tipos de caso dependiendo si el valor que recoge la variable descuento es menor que 1.
